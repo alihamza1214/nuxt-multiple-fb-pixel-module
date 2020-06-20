@@ -20,14 +20,14 @@
 ## Install
 
 ```bash
-$ npm install --save nuxt-facebook-pixel-module
+$ npm install --save @dukanify/nuxt-multiple-facebook-pixel-module
 // or
-$ yarn add nuxt-facebook-pixel-module
+$ yarn add @dukanify/nuxt-multiple-facebook-pixel-module
 ```
 
 ## Getting Started
 
-Add `nuxt-facebook-pixel-module` to `modules` section of `nuxt.config.js`.
+Add `@dukanify/nuxt-multiple-facebook-pixel-module` to `modules` section of `nuxt.config.js`.
 
 ```js
 {
