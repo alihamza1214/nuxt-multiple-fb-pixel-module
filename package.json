@@ -1,6 +1,6 @@
 {
   "name": "@dukanify/nuxt-multiple-facebook-pixel-module",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "Multiple Facebook Pixels for Nuxt Js",
   "license": "MIT",
   "contributors": [
@@ -12,7 +12,8 @@
     },
     {
       "name": "David Tabachnikov"
-    },{
+    },
+    {
       "name": "Ali hamza <alihamzabukhari007@gmail.com>"
     }
   ],

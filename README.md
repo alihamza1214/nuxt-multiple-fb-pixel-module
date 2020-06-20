@@ -1,6 +1,6 @@
 # nuxt-multiple-facebook-pixel-module
 
-[![npm (scoped with tag)](https://img.shields.io/npm/v/nuxt-facebook-pixel-module/latest.svg?style=flat-square)](https://npmjs.com/package/nuxt-facebook-pixel-module)
+[![npm (scoped with tag)](https://img.shields.io/npm/v/@dukanify/nuxt-multiple-facebook-pixel-module/latest.svg?style=flat-square)](https://npmjs.com/package/@dukanify/nuxt-multiple-facebook-pixel-module)
 
 > A NuxtJS module thats injects Multiple Facebook Pixel code
 
