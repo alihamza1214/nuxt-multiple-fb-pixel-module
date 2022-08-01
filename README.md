@@ -1,6 +1,8 @@
 # nuxt-multiple-facebook-pixel-module
 
 [![npm (scoped with tag)](https://img.shields.io/npm/v/@dukanify/nuxt-multiple-facebook-pixel-module/latest.svg?style=flat-square)](https://npmjs.com/package/@dukanify/nuxt-multiple-facebook-pixel-module)
+[![npm](https://img.shields.io/npm/dt/nuxt-multiple-facebook-pixel-module.svg?style=flat-square)](https://www.npmjs.com/package/@dukanify/nuxt-multiple-facebook-pixel-module)
+[![js-standard-style](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](http://standardjs.com)
 
 > A NuxtJS module thats injects Multiple Facebook Pixel code
 
@@ -105,6 +107,10 @@ The tracking pixel instance is available on all vue component instances as $fb. 
 | init()            | Initialises the pixel                                                                                    | fbq('init', <options.pixelId>) |
 | track(event)           | Sends a track event. It's `PageView` by default if the `event` is not defined.                                                                                      | fbq('track', <options.track>)  |
 | query(key, value, parameters) | Call the underlying fbq instance with anything else. The `parameters` attribute is optional.                                                      | fbq(key, value, parameters)                |
+
+## New EventId tracking option added for handling deduplication if you are using server side events (CAPI)
+
+this.$fb.track("Purchase", params,{eventID: 'purchase.123'});
 
 ## License
 
